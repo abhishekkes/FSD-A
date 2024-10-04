@@ -1,7 +1,12 @@
 .fcontainer {
   display: flex;
-  flex-direction: row-reverse;
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid green;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .fitems {
   width: 100px;
@@ -15,7 +20,12 @@
   border-width: 10px;
   border-style: double;
 }
+.item1
+{
+  flex-grow: 2;
+}
 
 .item2 {
-  order: 3;
+  order: 2;
+  flex-grow: 3;
 }
